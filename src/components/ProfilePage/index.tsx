@@ -20,8 +20,8 @@ const ProfilePage: React.FC = () => {
       </Banner>
       <ProfileData>
         <EditButton outlined>Editar perfil</EditButton>
-        <h1>Filipe Sales</h1>
-        <h2>@filipesalesaraujo</h2>
+        <h1>Nome do usuário</h1>
+        <h2>@nome_do_usuario</h2>
         <p>Developer</p>
         <ul>
           <li>

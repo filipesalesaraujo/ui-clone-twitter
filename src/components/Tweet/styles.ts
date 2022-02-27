@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 
-import { Chat, Favorite, Rocketseat } from '../../styles/Icons';
+import { Chat, Favorite } from '../../styles/Icons';
+import { FaRetweet } from 'react-icons/fa';
 
 export const Container = styled.div`
   display: flex;
@@ -15,7 +16,8 @@ export const Retweeted = styled.div`
   font-size: 13px;
   color: var(--gray);
 `;
-export const RocketseatIcon = styled(Rocketseat)`
+
+export const RetweetedIcon = styled(FaRetweet)`
   width: 16px;
   height: 16px;
   margin-left: 35px;
@@ -24,6 +26,7 @@ export const RocketseatIcon = styled(Rocketseat)`
     fill: (--gray);
   }
 `;
+
 export const Body = styled.div`
   display: flex;
   margin-top: 3px;
@@ -137,7 +140,7 @@ const iconCSS = css`
 export const CommentIcon = styled(Chat)`
   ${iconCSS}
 `;
-export const RetweetIcon = styled(Rocketseat)`
+export const RetweetIcon = styled(FaRetweet)`
   ${iconCSS}
 `;
 export const LikeIcon = styled(Favorite)`

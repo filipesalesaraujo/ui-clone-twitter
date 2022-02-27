@@ -7,8 +7,9 @@ import {
   FavoriteBorder,
   Person,
   ExitToApp,
-  Rocketseat,
 } from '../../styles/Icons';
+
+import {FaTwitter} from 'react-icons/fa';
 
 export const Container = styled.div`
   display: none;
@@ -32,7 +33,7 @@ export const Topside = styled.div`
     align-items: flex-start;
   }
 `;
-export const Logo = styled(Rocketseat)`
+export const Logo = styled(FaTwitter)`
   width: 41px;
   height: 41px;
   > path {

@@ -3,7 +3,6 @@ import React from 'react';
 import {
   Container,
   Retweeted,
-  RocketseatIcon,
   Body,
   Avatar,
   Content,
@@ -16,25 +15,26 @@ import {
   CommentIcon,
   RetweetIcon,
   LikeIcon,
+  RetweetedIcon
 } from './styles';
 
-const CTweet: React.FC = () => {
+const Tweet: React.FC = () => {
   return (
     <Container>
       <Retweeted>
-        <RocketseatIcon />
+        <RetweetedIcon />
         Você retweetou
       </Retweeted>
       <Body>
         <Avatar />
         <Content>
           <Header>
-            <strong>Rockeseat</strong>
-            <span>@rockeseat</span>
+            <strong>Fulano</strong>
+            <span>@fulano</span>
             <Dot />
             <time>27 de fev</time>
           </Header>
-          <Description>Foguete não tem ré :rocket:</Description>
+          <Description>Donec bibendum elit in massa vehicula vestibulum.</Description>
           <ImageContent />
           <Icons>
             <Status>
@@ -56,4 +56,4 @@ const CTweet: React.FC = () => {
   );
 };
 
-export default CTweet;
+export default Tweet;
